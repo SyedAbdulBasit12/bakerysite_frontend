@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakers - Reviews & Contact</title>
+    <link rel="stylesheet" href="styles_new.css">
+    <script src="script_new.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bakers</h1>
+        <p>Location: Multan, Rasheedabad</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cakes_new.html">Cakes</a></li>
+            <li><a href="donuts_new.html">Donuts</a></li>
+            <li><a href="pastries_new.html">Pastries</a></li>
+        </ul>
+    </nav>
+    <section class="reviews contact-section">
+        <h2>Reviews</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="rating">Rating (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+            <label for="review">Review:</label><br>
+            <textarea id="review" name="review" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit Review">
+        </form>
+    </section>
+    <section class="contact contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:here.12@gmail.com">here.12@gmail.com</a></p>
+        <p>Address: Multan, Rasheedabad</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bakers</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakers - Cakes</title>
+    <link rel="stylesheet" href="styles_new.css">
+    <script src="script_new.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bakers</h1>
+        <p>Location: Multan, Rasheedabad</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="donuts_new.html">Donuts</a></li>
+            <li><a href="pastries_new.html">Pastries</a></li>
+            <li><a href="reviews_contact.html">Reviews & Contact</a></li>
+        </ul>
+    </nav>
+    <section class="products">
+        <h2>Cakes</h2>
+        <div class="product">
+            <h3>Chocolate Cake</h3>
+            <img src="images/chocolate-cake.jpg" alt="Chocolate Cake" onclick="showCakeOptions('Chocolate Cake', 550)">
+            <p>Price: 550</p>
+            <button onclick="showCakeOptions('Chocolate Cake', 550)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Pineapple Cake</h3>
+            <img src="images/pineapple-cake.jpg" alt="Pineapple Cake" onclick="showCakeOptions('Pineapple Cake', 500)">
+            <p>Price: 500</p>
+            <button onclick="showCakeOptions('Pineapple Cake', 500)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Dryfruit Cake</h3>
+            <img src="images/dryfruit-cake.jpg" alt="Dryfruit Cake" onclick="showCakeOptions('Dryfruit Cake', 400)">
+            <p>Price: 400</p>
+            <button onclick="showCakeOptions('Dryfruit Cake', 400)">Add to Cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bakers</p>
+    </footer>
+</body>
+</html>

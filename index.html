@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakers - Home</title>
+    <link rel="stylesheet" href="styles_new.css">
+</head>
+<body>
+    <header>
+        <h1>Bakers</h1>
+        <p>Location: Multan, Rasheedabad</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#cakes-section">Cakes</a></li>
+            <li><a href="#donuts-section">Donuts</a></li>
+            <li><a href="#pastries-section">Pastries</a></li>
+            <li><a href="reviews_contact.html">Reviews & Contact</a></li>
+        </ul>
+    </nav>
+    <section class="home">
+        <h2>Welcome to Bakers</h2>
+        <p>Your one-stop shop for delicious cakes, pastries, and donuts!</p>
+        <img src="images/bakery.jpg" alt="Bakery Image">
+    </section>
+    <section id="cakes-section" class="category-section">
+        <h2>Cakes</h2>
+        <img src="images/cakes.jpg" alt="Cakes" onclick="showCategory('cakes')">
+    </section>
+    <section id="donuts-section" class="category-section">
+        <h2>Donuts</h2>
+        <img src="images/donuts.jpg" alt="Donuts" onclick="showCategory('donuts')">
+    </section>
+    <section id="pastries-section" class="category-section">
+        <h2>Pastries</h2>
+        <img src="images/pastries.jpg" alt="Pastries" onclick="showCategory('pastries')">
+    </section>
+    <footer>
+        <p>&copy; 2024 Bakers</p>
+    </footer>
+    <script src="script_new.js"></script>
+</body>
+</html>
